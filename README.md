@@ -26,6 +26,8 @@ They called it the **OOP Kingdom**.
 
 OOP Kingdom is a collaborative open-source project where contributors collectively build a virtual kingdom — entirely through Java code.
 
+**This project is fully Java-based!** Whether you are a beginner looking to learn Java and Object-Oriented Programming (OOP) principles, or an experienced developer wanting to contribute to a fun, growing ecosystem, anyone who wants to learn Java or already knows Java can contribute!
+
 Every week, a new chapter of the kingdom's story is released describing what the kingdom needs next — a marketplace, a blacksmith, a postal system. Contributors design and implement these as real object-oriented code and raise a PR. The best implementation gets merged and becomes the kingdom's official canon.
 
 **This is the closest thing to contributing to a real company codebase — without needing to be hired first.**
