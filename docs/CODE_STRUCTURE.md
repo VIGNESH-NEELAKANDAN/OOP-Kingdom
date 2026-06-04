@@ -40,7 +40,6 @@ oop-kingdom/
 │   ├── CODE_STRUCTURE.md       #     This file
 │   ├── REVIEW_RUBRIC.md
 │   ├── RANKS.md
-│   ├── JACKSON_GUIDE.md
 │   └── OOP_GUIDE.md
 │
 ├── .github/
