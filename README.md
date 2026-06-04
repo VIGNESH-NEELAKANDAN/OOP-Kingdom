@@ -138,42 +138,6 @@ As your PRs get merged, you ascend the ranks of the kingdom.
 
 ---
 
-## 📁 Repository Structure
-
-```
-oop-kingdom/
-├── kingdom/                    # The Java codebase (Maven project)
-│   └── src/
-│       ├── main/java/kingdom/
-│       │   ├── core/           # KingdomEntity interface, enums, registry
-│       │   ├── contracts/      # Abstract quest contracts (AbstractBlacksmith, etc.)
-│       │   ├── entities/       # Merged kingdom buildings live here
-│       │   ├── Kingdom.java
-│       │   └── Main.java
-│       └── test/               # Unit and integration tests
-├── quests/                     # Weekly quest drops
-│   └── week-01/quest.md
-├── chronicles/                 # The kingdom's lore and story
-│   ├── chapter-00.md
-│   └── chapter-01.md
-├── state/                      # Auto-generated kingdom state (JSON)
-│   └── kingdom.json
-├── docs/                       # All guides and documentation
-│   ├── SETUP.md                ← Start here if you're new
-│   ├── BUILD.md
-│   ├── CODE_STANDARDS.md
-│   ├── CODE_STRUCTURE.md
-│   ├── REVIEW_RUBRIC.md
-│   ├── RANKS.md
-│   ├── JACKSON_GUIDE.md
-│   └── OOP_GUIDE.md
-├── contributors.json           # Who built what
-├── CODE_OF_CONDUCT.md
-└── README.md
-```
-
----
-
 ## 📚 Read More
 
 | Document | What it covers |
@@ -186,7 +150,6 @@ oop-kingdom/
 | [📁 Code Structure](docs/CODE_STRUCTURE.md) | Repository layout explained |
 | [⚖️ Review Rubric](docs/REVIEW_RUBRIC.md) | How PRs are judged |
 | [👑 Contributor Ranks](docs/RANKS.md) | Rank requirements and rewards |
-| [🔧 Jackson Guide](docs/JACKSON_GUIDE.md) | Jackson annotations explained simply |
 | [📘 OOP Guide](docs/OOP_GUIDE.md) | OOP concepts with kingdom-themed examples |
 
 ---
