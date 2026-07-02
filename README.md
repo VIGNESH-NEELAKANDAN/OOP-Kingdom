@@ -23,7 +23,7 @@ The kingdom has grown. But it is not complete.
 
 **New buildings are needed. New quests await. The kingdom needs builders.**
 
-> Read the full chronicles: [Chapter 00 — The Rebellion](chronicles/chapter-00.md) · [Chapter 01 — The Founding](chronicles/chapter-01.md)
+> Read the full chronicles: [Chapter 00 — The Rebellion](chronicles/chapter-00.md) · [Chapter 01 — The Founding](chronicles/chapter-01.md) · [Chapter 02 — The Velfire Discovery](chronicles/chapter-02.md) · [Chapter 03 — The Watchers](chronicles/chapter-03.md) · [Chapter 04 — The Warning](chronicles/chapter-04.md)
 
 ---
 
@@ -46,7 +46,7 @@ Whether you're a beginner learning Java and OOP, or an experienced developer wan
 | 1️⃣ | Read [SETUP.md](docs/SETUP.md) — fork, clone, install Java 17 & Maven |
 | 2️⃣ | Read [Chapter 00](chronicles/chapter-00.md) to understand the world |
 | 3️⃣ | Study [Lumberyard.java](kingdom/src/main/java/kingdom/entities/Lumberyard.java) — it's your reference implementation |
-| 4️⃣ | Open [quests/week-01/quest.md](quests/week-01/quest.md) and pick a building to implement |
+| 4️⃣ | Open [quests/week-04/quest.md](quests/week-04/quest.md) and pick a building to implement |
 | 5️⃣ | Build it, test it, raise a PR! |
 
 > 💡 Stuck? Open a [Discussion](https://github.com/Hemanthkumar2k04/OOP-Kingdom/discussions) and ask — no question is too basic.
@@ -223,6 +223,15 @@ Each entity has an abstract class or interface in [`kingdom/src/main/java/kingdo
 | Barracks | `AbstractBarracks` — `trainTroop()`, `getTroops()` |
 | Blacksmith | `AbstractBlacksmith` — `forgeWeapon()`, `getWeaponCount()`, `repairAnvil()` |
 | Market | `AbstractMarket` — `conductTrade()`, `getGoldBalance()` |
+| Guard Post | `AbstractGuardPost` — `patrol()`, `getIncidentCount()`, `reportToStation()` |
+| Guard Station | `AbstractGuardStation` — `assignPatrol()`, `getActivePatrolCount()`, `coordinateResponse()` |
+| Prison | `AbstractPrison` — `imprison()`, `release()`, `getInmateCount()` |
+| Court House | `AbstractCourtHouse` — `holdTrial()`, `getCasesResolved()`, `passJudgment()` |
+| Gatehouse | `AbstractGatehouse` — `admitVisitor()`, `departVisitor()`, `getTotalVisitors()` |
+| Town Crier | `AbstractTownCrier` — `announce()`, `getAnnouncementCount()`, `getLatestAnnouncement()` |
+| Archery Ground | `AbstractArcheryGround` — `trainArcher()`, `getArcherCount()`, `holdPractice()` |
+| Explosive Arena | `AbstractExplosiveArena` — `trainDemolitionist()`, `getDemolitionistCount()`, `prepareExplosive()`, `getExplosivesReady()` |
+| Siege Workshop | `AbstractSiegeWorkshop` — `buildCatapult()`, `getCatapultCount()`, `testFire()`, `getAverageRange()` |
 
 ### Step 3 — Implement your class
 
@@ -372,10 +381,16 @@ OOP-Kingdom/
 │       └── test/java/kingdom/        # Tests
 ├── quests/                           # Weekly quest drops
 │   ├── template.md                   # Quest submission guidelines
-│   └── week-01/quest.md
+│   ├── week-01/quest.md
+│   ├── week-02/quest.md
+│   ├── week-03/quest.md
+│   └── week-04/quest.md
 ├── chronicles/                       # The kingdom's story
 │   ├── chapter-00.md
-│   └── chapter-01.md
+│   ├── chapter-01.md
+│   ├── chapter-02.md
+│   ├── chapter-03.md
+│   └── chapter-04.md
 ├── uml/                              # UML diagrams (one .md file per class)
 ├── docs/                             # Documentation
 │   ├── BUILD.md                      # Build & test commands
@@ -444,6 +459,9 @@ See [Contributor Ranks](docs/RANKS.md) for the full breakdown.
 | [Quest Guidelines](quests/template.md) | Quest submission rules |
 | [Chronicles — Ch 00](chronicles/chapter-00.md) | The Rebellion — full origin story |
 | [Chronicles — Ch 01](chronicles/chapter-01.md) | The Founding — how the kingdom began |
+| [Chronicles — Ch 02](chronicles/chapter-02.md) | The Velfire Discovery — the purple stone that changed everything |
+| [Chronicles — Ch 03](chronicles/chapter-03.md) | The Watchers — building a system of law and order |
+| [Chronicles — Ch 04](chronicles/chapter-04.md) | The Warning — the POP Kingdom's ultimatum |
 | [License](LICENSE) | MIT — free to use, modify, distribute |
 
 ---
