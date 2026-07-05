@@ -13,6 +13,9 @@ public class ArcheryGround extends AbstractArcheryGround {
     private List<String> archers;
     private final String identity;
     private final LocalDate foundingDate;
+    static {
+        kingdom.core.KingdomRegistry.register(ArcheryGround.class);
+    }
 
     public ArcheryGround() {
         this.archers = new ArrayList<>();
